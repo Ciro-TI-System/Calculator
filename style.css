@@ -32,49 +32,22 @@ body * {
 }
 
 #display {
-  width: 100%;
+  max-width: 90%;
   height: 100px;
-  margin-top: 54px;
-  /* padding-inline: 54px; */
   text-align: right;
-  font-size: 20px;
   line-height: 140%;
   color: #6b6b6b;
-  margin-top: 8px;
+  margin: 35px 25px 0px 25px;
   display: flex;
-  /* justify-content: space-between; */
   justify-content: flex-end;
-  /* font-size: 36px; */
-  line-height: 140%;
+  font-size: 50px;
   color: #ebebeb;
-  margin-bottom: 20px;
   padding: 15px;
+  padding-inline: 34px;
   overflow: hidden;
+  border-radius: 999px;
+  background-color: rgb(170, 6, 61);
 }
-
-/* #display {
-  margin-top: 54px;
-  padding-inline: 54px;
-} */
-
-/* #last-calc {
-  text-align: right;
-  font-size: 20px;
-  line-height: 140%;
-  color: #6b6b6b;
-} */
-
-/* #result {
-  margin-top: 8px;
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* #result span {
-  font-size: 36px;
-  line-height: 140%;
-  color: #ebebeb;
-} */
 
 #keyboard {
   padding: 26px 32px 32px;
@@ -128,6 +101,6 @@ button {
 }
 
 button:hover {
-  background-color: #dd216f;
+  background-color: rgb(170, 6, 61);
   color: black;
 }

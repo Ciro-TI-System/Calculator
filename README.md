@@ -1,7 +1,7 @@
 <h1 align="center"> Uma Calculadora </h1>
 
 <p align="center">
-Layout de uma calculadora.
+Layout de uma calculadora e algumas funcionalidades.
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@ Layout de uma calculadora.
 <br>
 
 <p align="center">
-  <img alt="Projeto de uma calculadora" src=".github\Calculator.jpg" width="100%">
+  <img alt="Projeto de uma calculadora" src=".github\Calculadora.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias

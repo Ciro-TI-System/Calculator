@@ -1,63 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  
-  <body>
-    <div id="calculator">
-      <div id="display">
-        <!-- <div id="last-calc">1+1</div>
-        <div id="result">
-          <img src="./assets/equals.svg" alt="Sinal de igual">
-          <span>2</span>
-        </div> -->
-      </div>
-      <div id="keyboard">
-        <button id="clearDisplay" class="secondary">CE</button>
-        <button id="clearCalculation">C</button>
-        <button id="backspace">«</button>
-        <button id="divideOperator" class="tertiary">
-          <img src="./assets/divide.svg" alt="Divide" />
-        </button>
-        <button id="key7">7</button>
-        <button id="key8">8</button>
-        <button id="key9">9</button>
-        <button id="multiplyOperator" class="tertiary">
-          <img src="./assets/x.svg" alt="Multiplication" />
-        </button>
-        <button id="key4">4</button>
-        <button id="key5">5</button>
-        <button id="key6">6</button>
-        <button id="subtractOperator" class="tertiary">
-          <img src="./assets/minus.svg" alt="Minus" />
-        </button>
-        <button id="key1">1</button>
-        <button id="key2">2</button>
-        <button id="key3">3</button>
-        <button id="addOperator" class="tertiary">
-          <img src="./assets/plus.svg" alt="Plus" />
-        </button>
-        <button>
-          <img id="reverse" src="./assets/plusminus.svg" alt="PlusMinus" />
-        </button>
-        <button id="key0">0</button>
-        <button id="decimal">,</button>
-        <button id="equal" class="quaternary">
-          <img src="./assets/result.svg" alt="Equals" />
-        </button>
-      </div>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="calculator">
+    <div id="display"></div>
+    <div id="keyboard">
+      <button id="limparDisplay" class="secondary">CE</button>
+      <button id="limparCalculo">C</button>
+      <button id="backspace">«</button>
+      <button id="operadorDividir" class="tertiary">/</button>
+      <button id="tecla7">7</button>
+      <button id="tecla8">8</button>
+      <button id="tecla9">9</button>
+      <button id="operadorMultiplicar" class="tertiary">*</button>
+      <button id="tecla4">4</button>
+      <button id="tecla5">5</button>
+      <button id="tecla6">6</button>
+      <button id="operadorSubtrair" class="tertiary">-</button>
+      <button id="tecla1">1</button>
+      <button id="tecla2">2</button>
+      <button id="tecla3">3</button>
+      <button id="operadorAdicionar" class="tertiary">+</button>
+      <button id="inverter">±</button>
+      <button id="tecla0">0</button>
+      <button id="decimal">,</button>
+      <button id="igual" class="quaternary">=</button>
     </div>
-    <script src="calculator.js"></script>
-  </body>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
 </html>
